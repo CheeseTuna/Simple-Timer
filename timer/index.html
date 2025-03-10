@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade|Covered+By+Your+Grace" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <h1>Set Timer</h1>
+        <div class="img-container">
+            <div class="slider-thumb"></div>
+            <img class="img-css" id="timer-img" src="https://static.thenounproject.com/png/633970-200.png">
+        </div>
+        <div class="countdwn-container">
+            <p class="time-p" id="countdwn-hour">00:00:00</p>
+        </div>
+        <div class="input-fields">
+            <input placeholder="0" class="input-fields" id="hours" type="number" min="0" max="60">
+            <input placeholder="0" class="input-fields" id="minutes" type="number" min="0" max="60">
+            <input placeholder="0" class="input-fields" id="seconds" type="number" min="0" max="60">
+        </div>
+        <button id="button" onclick="
+            getTime()
+        ">Start</button>
+        <script src="timer.js"></script>
+    </section>
+</body>
+</html>
