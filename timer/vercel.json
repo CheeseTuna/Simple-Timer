@@ -1,24 +1,12 @@
-
 {
     "version": 2,
     "builds": [
-      {
-        "src": "index.html",
-        "use": "@vercel/static"
-      },
-      {
-        "src": "styles/*",
-        "use": "@vercel/static"
-      },
-      {
-        "src": "scripts/*",
-        "use": "@vercel/static"
-      }
+      { "src": "timer/index.html", "use": "@vercel/static" },
+      { "src": "timer/style.css", "use": "@vercel/static" },
+      { "src": "timer/timer.js", "use": "@vercel/static" }
     ],
     "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/index.html"
-      }
+      { "src": "/(.*)", "dest": "/timer/index.html" }
     ]
-}
+  }
+  
