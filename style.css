@@ -10,7 +10,7 @@ body {
   .slider-thumb::before {
       position: absolute;
       content: "";
-      right: 55%;
+      right: 47%;
       top: 0px;
       width: 690px;
       height: 690px;
@@ -59,8 +59,6 @@ h1 {
     font-size: 60px;
     color: white;
     width: 100%;
-    margin-top: 90px;
-    margin-bottom: 90px;
     height: auto;
 }
 .time-p {
@@ -88,6 +86,8 @@ button {
 
 .img-css {
     position: relative;
+    left: 4%;
+    width: 20%;
     margin: -60px 0 0 -60px;
     -webkit-animation: spin 4s linear infinite;
     -moz-animation: spin 4s linear infinite;
